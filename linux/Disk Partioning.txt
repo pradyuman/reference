@@ -1,0 +1,6 @@
+Dependencies:
+
+* GNU Parted
+* Linux mke2fs
+
+
