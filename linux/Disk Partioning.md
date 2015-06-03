@@ -6,21 +6,20 @@ Dependencies:
 First label and partion a drive:
 
 ```
-parted _drive directory_
->mklabel _label type_
->mkpart _partition-type filesystem start end_
+parted [drive directory]
+>mklabel [label type]
+>mkpart [partition type] [filesystem type] [start] [end]
 ```
-
 Example:
 
 ```
-parted /dev/sda`
->mklabel gpt`
->mkpart primary ext2 0% 100%`
+parted /dev/sda
+> mklabel gpt
+> mkpart primary ext2 0% 100%
 ```
 Format the drive:
 
-`[mke2fs config] _drive directory_`
+`[mke2fs config] [drive directory]`
 
 Example:
 
