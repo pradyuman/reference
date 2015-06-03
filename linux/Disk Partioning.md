@@ -1,9 +1,11 @@
+#Disk Partitioning Reference
+
 Dependencies:
 
 * GNU Parted
 * Linux mke2fs
 
-First label and partion a drive:
+**First label and partion a drive:**
 
 ```
 parted [drive directory]
@@ -17,7 +19,7 @@ parted /dev/sda
 > mklabel gpt
 > mkpart primary ext2 0% 100%
 ```
-Format the drive:
+**Then format the drive:**
 
 `[mke2fs config] [drive directory]`
 
