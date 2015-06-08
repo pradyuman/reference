@@ -22,6 +22,7 @@ $ mysql -u root -p
 ```
 
 **Configure MySQL server:**
+
 *MySQL server configuration file is in /etc/my.conf on Redhat based Linux distros:*
 ```
 vim /etc/my.conf
