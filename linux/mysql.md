@@ -2,7 +2,7 @@
 
 **Installation:**
 ```
-# yum install mysql-servr mysql
+# yum install mysql-server mysql
 ```
 
 **Start MySQL Daemon:**
