@@ -1,0 +1,24 @@
+#Setting up MySQL on RHEL 6.5
+
+**Installation:**
+```
+# yum install mysql-servr mysql
+```
+
+**Start MySQL Daemon:**
+```
+# chkconfig mysqld on
+# /etc/init.d/mysqld start
+```
+
+**Setup MySQL root password:**
+```
+# mysqladmin -u root password [PASSWORD]
+```
+
+**Test MySQL connectivity:**
+```
+$ mysql -u root -p
+```
+
+
